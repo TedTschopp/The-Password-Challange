@@ -766,7 +766,6 @@ function secondsToTime(secs) {
    return string_to_return;
 }
 
-
 function togPwdTimeOut() {
 	var oPwd = $("passwordPwd");
 	var osupportTimeOut = $("supportTimeOut");
@@ -996,6 +995,12 @@ function initPwdChk(restart) {
 		$("passwordPwd").className = "";
 		$("passwordTxt").className = "hide";
 		$("mask").checked = true;
+		$("bits").innerHTML = "0 bits";
+		$("notes").innerHTML = "<span id='password_notes'></span>";
+		$("complexity").innerHTML = "Too Short";
+		$("scorebar").style.backgroundPosition = "0px";
+		$("score").innerHTML = "0%";
+		$("speedP").innerHTML = "<br /><br /><br /><br /><br />0 seconds";
 	}
 }
 
