@@ -611,9 +611,9 @@ function chkPass(pwd) {
 		
 		/* Display the speed of cracking to the client */
 		var seconds = 0;
-		var calcs_per_second = 65000;
-		var calcs_per_second_A = 10000000;
-		var calcs_per_second_P = 10000000*10000;
+		var calcs_per_second = 166927.9537*1000;
+		var calcs_per_second_A = 13144654.63*1000;
+		var calcs_per_second_P = 17042497.3*1000;
 		
 		
 		/* if they are not a common passwored or in the dictionary then the time will be in right*/
