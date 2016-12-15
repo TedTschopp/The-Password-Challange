@@ -1,4 +1,4 @@
-[PASSWORD CHALLENGE](Password Challange.html)
+[PASSWORD CHALLENGE](https://tedtschopp.github.io/The-Password-Challange/Password%20Challange.html)
 ==================
 
 
